@@ -1,0 +1,50 @@
+
+        body{
+margin-top:100px;
+
+margin-left:200px;
+
+}
+
+.maindiv{
+width:900px;
+
+padding:10px;
+
+overflow:hidden; /*关键*/
+
+border:1px solid black;
+
+}
+
+.leftdiv{
+float:left;
+
+width:400px;
+
+background-color:#CC6633;
+
+}
+
+.rightdiv{
+float:right;
+
+width:400px;
+
+background-color:#CC66FF;
+
+}
+
+.centerdiv{
+float:left;
+
+width:50px;
+
+border-right: 1px dashed black;
+
+padding-bottom:1600px; /*关键*/
+
+margin-bottom:-1600px; /*关键*/
+
+}
+
