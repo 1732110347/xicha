@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>css轮播</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrap {
+    position: relative;
+    width: 300vw;
+    overflow: hidden;
+    
+}
+.wrap img {
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+    float: left;
+}
+ 
+#pic1:checked ~ .wrap {
+    left: 0;
+    transition: 0.5s linear;
+}
+#pic2:checked ~ .wrap {
+    left: -100vw;
+    transition: 0.5s linear;
+}
+#pic3:checked ~ .wrap {
+    left: -200vw;
+    transition: 0.5s linear;
+}
+.viewport {
+    position: relative;
+    overflow: hidden;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="viewport">
+
+        <div class="wrap">
+            <img src="./data/04aa2920-1d03-11eb-b246-0bdd620bdb4c.png" alt="">
+            <img src="./data/10c0e830-1a91-11eb-9ea5-7d29435cfb35.png" alt="">
+            <img src="./data/1cff5980-1f30-11eb-9287-d99ecf7e2cf0.png" alt="">
+        </div>
+                <input type="radio" name="slider" id="pic1" checked>
+        <input type="radio" name="slider" id="pic2">
+        <input type="radio" name="slider" id="pic3">
+        <div class="page">
+            <label for="pic1"></label>
+            <label for="pic2"></label>
+            <label for="pic3"></label>
+        </div>
+       
+    </div>
+</body>
+</html>
