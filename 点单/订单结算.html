@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .box2 {
+            position: relative;
+            width: 100%;
+            height: 80px;
+        }
+
+        .box2 div {
+            position: absolute;
+        }
+
+        .box3 {
+            width: 100%;
+            height: 45px;
+            position: relative;
+        }
+
+        .box3 div {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        .box3 div span {
+            position: relative;
+            left: 20px;
+        }
+
+        .box4 {
+            width: 100%;
+            height: 70px;
+            position: relative;
+        }
+
+        .box4 div {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 15px;
+        }
+
+        .box4 span {
+            font-size: 13px;
+            position: absolute;
+            top: 33px;
+            left: 20px;
+            color: rgb(219, 168, 113);
+        }
+
+        .box5 {
+            width: 100%;
+            height: 265px;
+        }
+
+        .box5-1 {
+            width: 100%;
+            height: 100px;
+            position: relative;
+        }
+
+        .box5-1 img {
+            width: 60px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .box5-1 div {
+            position: absolute;
+            left: 90px;
+            top: 20px;
+        }
+
+        .box5-1 span {
+            position: absolute;
+            left: 320px;
+            top: 20px;
+        }
+
+        .box5-2 {
+            width: 100%;
+            height: 163px;
+        }
+
+        .box5-2 div {
+            width: 100%;
+            height: 33%;
+            position: relative;
+        }
+
+        .box5-2 div span {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+
+        .box5-2 div span span {
+            color: rgb(170, 170, 170);
+            width: 90px;
+            position: relative;
+            left: 200px;
+            top: 0px;
+        }
+
+        .box6 {
+            width: 100%;
+            height: 60px;
+
+            position: relative;
+        }
+
+        .box6 span {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+
+        .box6 span span {
+            width: 60px;
+            position: absolute;
+            left: 260px;
+            top: 0px;
+        }
+
+        .box6 span span span {
+            width: 10px;
+            position: absolute;
+            left: 60px;
+            top: 2px;
+        }
+
+        .box7 {
+            width: 100%;
+            height: 36px;
+            background-color: rgb(242, 242, 242);
+        }
+
+        .box7-2 {
+            width: 25%;
+            height: 36px;
+            float: right;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1" style="width: 100%;height: 80px;background-color: white;">
+        <div class="box1-1" style="width: 100%;height: 36px;"></div>
+
+        <div class="box1-2" style="height: 44px;width: 100%;">
+            <img src="../data/1.png" alt="" style="float: left;">
+            <div style="text-align: center;">订单结算</div>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div style="left: 15px;line-height: 25px;">
+            美年广场GO店 <span style="position: relative;left: 10px;color: rgb(170, 170, 170);">></span>
+            <div style="font-size: 13px;width: 290px;left: 10px;color: rgb(170, 170, 170);">您距离当前门店1000米以上，请确认门店是否正确
+            </div>
+        </div>
+
+    </div>
+
+    <div style="width: 100%;height: 1px;background-color: rgb(242, 242, 242)"></div>
+
+    <div class="box3">
+        <div>联系电话<span>18393248749</span><span
+                style="left: 140px;font-size: 13px;color: rgb(219, 168, 113);">自动填写</span></div>
+    </div>
+
+    <div style="width: 100%;height: 10px;background-color: rgb(242, 242, 242)"></div>
+
+    <div class="box4">
+        <div>
+            取茶时间
+        </div>
+        <span>冰淇淋/鲜食等产品无需等待，可立即向店员领取</span>
+    </div>
+
+    <div style="width: 100%;height: 10px;background-color: rgb(242, 242, 242)"></div>
+
+    <div class="box5">
+        <div class="box5-1">
+            <img src="../data/de2ebf40-1f37-11eb-9287-d99ecf7e2cf0.png" alt="">
+
+            <div>芒芒甘露冰棒</div>
+            <span>￥18
+
+            </span>
+            <span style="top: 60px;left: 335px;color: rgb(170, 170, 170);">
+                x1
+            </span>
+        </div>
+
+        <div style="width: 80%;height: 2px;background-color: rgb(242, 242, 242);margin: auto;"></div>
+
+
+        <div class="box5-2">
+            <div>
+                <span>喜茶券 <span>暂无可用 &nbsp;&nbsp; ></span></span>
+            </div>
+            <div>
+                <span>备注 <span style="color: black;left: 230px;">不打包 &nbsp;&nbsp; ></span></span>
+            </div>
+            <div>
+                <span style="color: rgb(170, 170, 170);left: 200px;">共1件商品，小计 <span style="color: black;left: 0px;">￥18
+                    </span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div style="width: 100%;height: 10px;background-color: rgb(242, 242, 242)"></div>
+    <div class="box6">
+        <span>支付方式 <span>支付宝 <span>></span> </span></span>
+    </div>
+
+
+
+
+
+
+    <div class="box7">
+       
+        <span style="font-size: 18px;padding-left: 180px;position: relative;top: 6px;">合计<span>￥18</span></span>
+        <div class="box7-2" style="background-color: rgb(219, 168, 113);">
+            <div style="font-size: 18px;color: white;padding-top: 6px;">支付</div>
+        </div>
+    </div>
+</body>
+
+</html>

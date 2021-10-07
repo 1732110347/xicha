@@ -1,12 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .box1 {
+            width: 100%;
+            height: 150px;
+
+            position: relative;
+        }
+
+        .box1-1 {
+            width: 253px;
+            height: 32px;
+            background-color: rgb(242, 242, 242);
+            position: absolute;
+            top: 35px;
+            left: 20px;
+            border-radius: 20px;
+        }
+
+        .box1-1 span {
+            position: relative;
+            top: 5px;
+            left: 30px;
+            color: rgb(170, 170, 170);
+        }
+
+        .box1-2 {
+            font-size: 20px;
+            position: absolute;
+            top: 100px;
+            left: 40px;
+        }
+
+        .box1-3 {
+            position: absolute;
+            top: 125px;
+            left: 20px;
+            font-size: 14px;
+            color: rgb(170, 170, 170);
+        }
+
+        .box1-4 {
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            border-radius: 15px;
+            top: 100px;
+            left: 250px;
+
+        }
+
+        .box1-4-1 {
+            width: 50%;
+            height: 100%;
+            color: white;
+            background-color: black;
+            border-radius: 15px 0 0px 15px;
+            float: left;
+        }
+
+        .box1-4-2 {
+            width: 50%;
+            height: 100%;
+            color: rgb(170, 170, 170);
+            background-color: rgb(242, 242, 242);
+            border-radius: 0 15px 15px 0px;
+            float: left;
+        }
+
+        .box1-4 div span {
+            position: relative;
+            top: 3px;
+            left: 8px;
+        }
+
+        .box2 {
+            width: 25%;
+            height: 440px;
+            overflow-x: auto;
+            text-align: center;
+            background-color: rgb(246, 246, 246);
+            float: left;
+        }
+
+        .box3 {
+            width: 75%;
+            height: 440px;
+            overflow-x: auto;
+
+            float: left;
+        }
+
+        .box3-1 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .box3-2{
+            width: 260px;
+            height: 110px;
+            margin: auto;
+            background-color: red;
+            position: relative;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="box1">
+        <div class="box1-1">
+            <span>搜索文字</span>
+        </div>
+
+        <div class="box1-2">美年广场GO店 <span>></span></div>
+        <div class="box1-3">距离您15.4km</div>
+
+        <div class="box1-4">
+            <div class="box1-4-1">
+                <span>自取</span>
+            </div>
+            <div class="box1-4-2">
+                <span>外卖</span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="box2">
+        <div><img src="../data/77669ba0-1a93-11eb-abbf-01aae41eac64.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/9cfca5d0-1a93-11eb-b98c-5bb8436f84ea.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/b7cc3420-1a93-11eb-8942-1bc7397b51c8.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/cbd15360-1a93-11eb-9ea5-7d29435cfb35.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/d7ad5df0-1a93-11eb-851d-07bafd4e6453.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/e3bea950-1a93-11eb-abbf-01aae41eac64.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/339fba40-1a94-11eb-8cb5-59c2c3bd9a0d.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/445427e0-1a94-11eb-95c1-efad19358517.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/4fab9920-1a94-11eb-95c1-efad19358517.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/5c3744a0-1a94-11eb-851d-07bafd4e6453.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/68b841c0-1a94-11eb-97ee-cd162869b4e9.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/7a04f7c0-1a94-11eb-9813-4b6191b49e14.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+    </div>
+
+
+    <div class="box3">
+        <div class="box3-1">
+            <div><img src="../data/a7780bc0-1a8f-11eb-95c1-efad19358517.png" alt="" style="width: 260px;height: 155px;">
+            </div>
+            <div><img src="../data/ac089060-1a8f-11eb-851d-07bafd4e6453.png" alt="" style="width: 260px;height: 155px;">
+            </div>
+
+        </div>
+        <div style="height: 20px;"></div>
+        <div style="color: rgb(170, 170, 170);padding-left: 8px;">喜茶实验室</div>
+        <div style="height: 20px;"></div>
+       
+       
+        <div class="box3-2">
+
+
+        </div>
+
+    </div>
 </body>
+
 </html>
