@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <script type="text/javascript">
+        var designWidth = 375;  		// 设计稿宽度
+        var remrem = 100;               // 在屏幕宽度375rem，的时候，设置根元素字体大小 100rem
+        var scale = window.innerWidth / designWidth; //计算当前屏幕的宽度与设计稿比例
+        // 根据屏幕宽度 动态计算根元素的 字体大小
+        document.documentElement.style.fontSize = scale * remrem + 'rem';
+
+    </script> -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .box3 {
+            font-size: 1.6rem;
+        }
+
+        .box3 div input {
+            margin-left: 6.0rem;
+        }
+
+        .box8 {
+            height: 4.4rem;
+            width: 34.3rem;
+            background-color: rgb(51, 51, 51);
+            margin: auto;
+            border-radius: 1.0rem;
+            margin-top: 2.0rem;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(242,242,242);">
+    <div class="box1" style="width: 100%;height: 8rem;background-color: white;">
+        <div class="box1-1" style="width: 100%;height: 3.6rem;"></div>
+
+        <div class="box1-2" style="height: 4.4rem;width: 100%;">
+            <div style="text-align: center;font-size: 1.6rem;">编辑地址</div>
+        </div>
+    </div>
+
+    <div style="width: 100%;height: 1rem;"></div>
+
+    <div class="box2" style="background-color: white;width: 100%;height: 5.2rem;">
+        <div style="color: rgb(127, 127, 127);padding-top: 1.0rem;padding-left: 2.5rem;font-size: 1.6rem;">联系人
+            <input type="text"
+                style="border:1.0rem solid white;outline: none;height: 1.6rem;font-size: 1.6rem;padding-left: 3.0rem;"
+                placeholder="小摹">
+
+        </div>
+    </div>
+    <div style="width: 100%;height: 0.1rem;"></div>
+
+
+    <div class="box3" style="background-color: white;width: 100%;height: 5.2rem;">
+        <div style="color: rgb(127, 127, 127);padding-top: 1.0rem;padding-left: 2.5rem;">性别
+
+            <input type="radio" name="sex" checked>男士 <input type="radio" name="sex" style="margin-left: 1.0rem;">女士
+
+
+        </div>
+    </div>
+    <div style="width: 100%;height: 0.1rem;"></div>
+
+    <div class="box4" style="background-color: white;width: 100%;height: 5.2rem;font-size: 1.6rem;">
+        <div style="color: rgb(127, 127, 127);padding-top: 1.0rem;padding-left: 2.5rem;">手机号
+            <input type="text"
+                style="border:1.0rem solid white;outline: none;height: 1.6rem;font-size: 1.6rem;padding-left: 3.0rem;"
+                placeholder="13898399283">
+
+        </div>
+    </div>
+
+    <div style="width: 100%;height: 0.1rem;"></div>
+
+    <div class="box5" style="background-color: white;width: 100%;height: 5.2rem;font-size: 1.6rem;">
+        <div style="color: rgb(127, 127, 127);padding-top: 1.0rem;padding-left: 2.5rem;">收货地址
+            <input type="text"
+                style="border:1.0rem solid white;outline: none;height: 1.6rem;font-size: 1.6rem;padding-left: 1.5rem;"
+                placeholder="成都市双流区双兴大道1号">
+
+        </div>
+    </div>
+
+    <div style="width: 100%;height: 0.1rem;"></div>
+
+    <div class="box6" style="background-color: white;width: 100%;height: 5.2rem;font-size: 1.6rem;">
+        <div style="color: rgb(127, 127, 127);padding-top: 1.0rem;padding-left: 2.5rem;">门牌号
+            <input type="text"
+                style="border:1.0rem solid white;outline: none;height: 1.6rem;font-size: 1.6rem;padding-left: 3.0rem;"
+                placeholder="16栋三楼1区">
+
+        </div>
+    </div>
+
+    <div style="width: 100%;height: 0.1rem;"></div>
+
+    <div class="box7" style="background-color: white;width: 100%;height: 5.2rem;font-size: 1.6rem;">
+
+        <div style="color: rgb(127, 127, 127);padding-top: 1.5rem;padding-left: 2.5rem;"><input type="radio" checked> <span
+                style="padding-left: 1.0rem;">设置默认地址</span>
+
+
+        </div>
+    </div>
+
+
+    <div class="box8">
+        <div style="color: white;text-align: center;font-size: 1.9rem;padding-top: 1.0rem;">保存</div>
+    </div>
+</body>
+
+<script>
+    document.getElementsByTagName("body")[0].style.fontSize = document.body.clientWidth / 37.5 + 'px';
+    document.getElementsByTagName("html")[0].style.fontSize = document.body.clientWidth / 37.5 + 'px';
+</script>
+
+</html>
