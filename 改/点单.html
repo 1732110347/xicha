@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .box1 {
+            width: 100%;
+            height: 12.0rem;
+
+            position: relative;
+        }
+
+        .box1-1 {
+            width: 25.3rem;
+            height: 3.2rem;
+            background-color: rgb(242, 242, 242);
+            position: absolute;
+            top: 2.0rem;
+            left: 2.0rem;
+            border-radius: 2.0rem;
+        }
+
+        .box1-1 span {
+            position: relative;
+            top: 0.5rem;
+            left: 3.0rem;
+            color: rgb(170, 170, 170);
+        }
+
+        .box1-2 {
+            font-size: 2.0rem;
+            position: absolute;
+            top: 6.0rem;
+            left: 4.0rem;
+        }
+
+        .box1-3 {
+            position: absolute;
+            top: 9.0rem;
+            left: 2.0rem;
+            font-size: 1.4rem;
+            color: rgb(170, 170, 170);
+        }
+
+        .box1-4 {
+            width: 10.0rem;
+            height: 3.0rem;
+            position: absolute;
+            border-radius: 1.5rem;
+            top: 7.0rem;
+            left: 25.0rem;
+
+        }
+
+        .box1-4-1 {
+            width: 50%;
+            height: 100%;
+            color: white;
+            background-color: black;
+            border-radius: 1.5rem 0 0rem 1.5rem;
+            float: left;
+        }
+
+        .box1-4-2 {
+            width: 50%;
+            height: 100%;
+            color: rgb(170, 170, 170);
+            background-color: rgb(242, 242, 242);
+            border-radius: 0 1.5rem 1.5rem 0rem;
+            float: left;
+        }
+
+        .box1-4 div span {
+            position: relative;
+            top: 0.3rem;
+            left: 0.8rem;
+        }
+
+        .box2 {
+            width: 25%;
+            height: 44.0rem;
+            overflow-x: auto;
+            text-align: center;
+            background-color: rgb(246, 246, 246);
+            float: left;
+        }
+
+        .box3 {
+            width: 75%;
+            height: 44.0rem;
+            overflow-x: auto;
+
+            float: left;
+        }
+
+        .box3-1 {
+            text-align: center;
+            padding-top: 1.0rem;
+        }
+
+        .box3-2 {
+            width: 26.0rem;
+            height: 11.0rem;
+            margin: auto;
+
+            position: relative;
+        }
+
+        .box3-2 div img {
+            position: absolute;
+            top: 23%;
+            left: 0%;
+        }
+
+        .box3-2-1 {
+            position: absolute;
+            top: 1%;
+            left: 25%;
+        }
+
+        .box3-2-2 {
+            position: absolute;
+            left: 25%;
+            top: 20%;
+            font-size: 1.2rem;
+            background-color: rgb(239, 240, 222);
+            color: rgb(123, 170, 16);
+        }
+
+        .box3-2-3 {
+            position: absolute;
+            left: 37%;
+            top: 20%;
+            font-size: 1.2rem;
+            background-color: rgb(235, 220, 223);
+            color: rgb(176, 161, 164);
+        }
+
+        .box3-2-4 {
+            position: absolute;
+            font-size: 1.2rem;
+            color: rgb(143, 128, 131);
+            top: 34%;
+            left: 16%;
+        }
+
+        .box3-2-5 {
+            position: absolute;
+            top: 80%;
+            left: 27%;
+        }
+
+        .box3-2-6 {
+            background-color: rgb(190, 112, 32);
+            width: 1.6rem;
+            height: 1.6rem;
+            color: white;
+            position: absolute;
+            top: 80%;
+            left: 90%;
+            text-align: center;
+            border-radius: 50%;
+
+        }
+
+        .box3-2-6 span {
+            position: relative;
+            left: 2%;
+            top: -3%;
+        }
+
+        .box7 {
+            width: 37.5rem;
+            height: 5.2rem;
+            background-color: rgb(247, 247, 247);
+            float: left;
+
+        }
+
+        .box7 div {
+            width: 20%;
+            float: left;
+
+
+        }
+
+        .box7 div div img {
+            width: 3.2rem;
+
+        }
+
+        .box7 div div {
+            text-align: center;
+            float: none;
+            width: auto;
+            margin-top: 0.2rem;
+        }
+
+        .box8 {
+            width: 100%;
+            height: 5.0rem;
+            float: left;
+            background-color: rgb(242, 242, 242);
+            position: relative;
+        }
+
+        .box8-2 {
+            height: 100%;
+            width: 10.0rem;
+            float: left;
+            font-size: 2.0rem;
+            position: relative;
+            left: 30%;
+        }
+        .box8-2 span {
+            position: relative;
+            top: 28%;
+        }
+        .box8-3 {
+            height: 100%;
+            width: 10.0rem;
+            background-color: rgb(219, 168, 113);
+            float: right;
+            text-align: center;
+            color: white;
+            font-size: 2.0rem;
+        }
+
+        .box8-3 span {
+            position: relative;
+            top: 28%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="box1-1">
+            <span>搜索文字</span>
+        </div>
+
+        <div class="box1-2">美年广场GO店 <span>></span></div>
+        <div class="box1-3">距离您15.4km</div>
+
+        <div class="box1-4">
+            <div class="box1-4-1">
+                <span>自取</span>
+            </div>
+            <div class="box1-4-2">
+                <span>外卖</span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="box2">
+        <div><img src="../data/77669ba0-1a93-11eb-abbf-01aae41eac64.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/9cfca5d0-1a93-11eb-b98c-5bb8436f84ea.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/b7cc3420-1a93-11eb-8942-1bc7397b51c8.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/cbd15360-1a93-11eb-9ea5-7d29435cfb35.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/d7ad5df0-1a93-11eb-851d-07bafd4e6453.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/e3bea950-1a93-11eb-abbf-01aae41eac64.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/339fba40-1a94-11eb-8cb5-59c2c3bd9a0d.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/445427e0-1a94-11eb-95c1-efad19358517.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/4fab9920-1a94-11eb-95c1-efad19358517.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/5c3744a0-1a94-11eb-851d-07bafd4e6453.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/68b841c0-1a94-11eb-97ee-cd162869b4e9.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+        <div><img src="../data/7a04f7c0-1a94-11eb-9813-4b6191b49e14.png" alt="">
+            <p>喜茶实验室</p>
+        </div>
+    </div>
+
+
+    <div class="box3">
+        <div class="box3-1">
+            <div><img src="../data/a7780bc0-1a8f-11eb-95c1-efad19358517.png" alt="" style="width: 26.0rem;height: 15.5rem;">
+            </div>
+            <div><img src="../data/ac089060-1a8f-11eb-851d-07bafd4e6453.png" alt="" style="width: 26.0rem;height: 15.5rem;">
+            </div>
+
+        </div>
+        <div style="height: 2.0rem;"></div>
+        <div style="color: rgb(170, 170, 170);padding-left: 0.8rem;">喜茶实验室</div>
+        <div style="height: 2.0rem;"></div>
+
+
+        <div class="box3-2">
+            <div><img src="../data/263e5160-1f38-11eb-b63f-d332209ed861.png" alt="" style="height:6.0rem"></div>
+            <div class="box3-2-1"> 芒芒甘露冰棒</div>
+            <div class="box3-2-2">新品</div>
+            <div class="box3-2-3">含乳饮品</div>
+            <div class="box3-2-4">人气多肉芒芒甘露变身冰棒，爽口芒芒冰 <br> 壳中夹有爱文芒果果肉与酸甜</div>
+            <div class="box3-2-5">￥18</div>
+            <div class="box3-2-6"> <span>+</span> </div>
+
+        </div>
+
+    </div>
+    <div>
+        <div class="box7">
+
+            <div class="box7-1">
+
+
+                <div style="height: 3.2rem;">
+                    <img src="../data/59e41060-1a95-11eb-8942-1bc7397b51c8.png" alt="">
+
+                </div>
+                <div style="font-size: 1.0rem; ">首页</div>
+            </div>
+
+            <div class="box7-2">
+                <div style="height: 3.2rem;">
+                    <img src="../data/4c635680-1a95-11eb-95c1-efad19358517.png" alt="">
+                </div>
+                <div style="font-size: 1.0rem; color: rgb(127, 127, 127);">点餐</div>
+            </div>
+
+            <div class="box7-3">
+                <div style="height: 3.2rem;">
+                    <img src="../data/2bc53ef0-1a8d-11eb-851d-07bafd4e6453.png" alt="">
+                </div>
+                <div style="font-size: 1.0rem; color: rgb(127, 127, 127);">百货</div>
+            </div>
+
+            <div class="box7-4">
+                <div style="height: 3.2rem;">
+                    <img src="../data/3467c960-1a8d-11eb-b98c-5bb8436f84ea.png" alt="">
+                </div>
+                <div style="font-size: 1.0rem;color: rgb(127, 127, 127); ">订单</div>
+            </div>
+
+            <div class="box7-5">
+                <div style="height: 3.2rem;">
+                    <img src="../data/3cdf7340-1a8d-11eb-abbf-01aae41eac64.png" alt="">
+                </div>
+                <div style="font-size: 1.0rem;color: rgb(127, 127, 127); ">我的</div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: rgb(235, 237, 238);height: 0.5rem;width: 100%;float: left;"></div>
+
+
+    <div class="box8">
+        <div class="box8-2"><span>￥18</span> </div>
+        <div class="box8-3"> <span>结算</span> </div>
+    </div>
+
+</body>
+<script>
+    document.getElementsByTagName("body")[0].style.fontSize = document.body.clientWidth / 37.5 + 'px';
+    document.getElementsByTagName("html")[0].style.fontSize = document.body.clientWidth / 37.5 + 'px';
+</script>
+</html>

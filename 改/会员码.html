@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .box1 {
+            height: 16.1rem;
+            width: 100%;
+            background-color: rgb(51, 51, 51);
+        }
+
+        .box2 img {
+            height: 8.0rem;
+            width: 8.0rem;
+            border-radius: 50%;
+        }
+
+        .box3{
+            width: 21.8rem;
+            height: 1.6rem;
+            margin: auto;
+            padding-top: 3.0rem;
+            padding-left: 2.0rem;
+        }
+        .box4{
+            margin-top: 10.0rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+
+
+    <div class="box2" style="text-align: center;margin-top: -4.0rem;">
+        <img src="../data/4fab22f0-1a9f-11eb-851d-07bafd4e6453.png" alt="">
+        <div>小摹</div>
+    </div>
+
+    <div class="box3">
+        <label><input type="radio" name="radio1" value="1" /><span style="font-size: 1.3rem;">使用礼品卡支付</span>  <span
+                style="color: rgb(119, 119, 119);font-size: 1.0rem;">(您还没有礼品卡)</span></label>
+    </div>
+
+<div class="box4" style="text-align: center;">
+<div style="font-size: 1.2rem;">此二维码可累计积分(不支持付款)</div>
+<img src="../data/8810ded0-1a8d-11eb-abbf-01aae41eac64.png" alt="" style="height: 13.0rem;margin-top: 2.0rem;">    
+
+<div style="font-size: 1.2rem;color: rgb(119, 119, 119);margin-top: 2.0rem;">会员码每30秒自动刷新一次</div>
+</div>
+
+</body>
+<script>
+    document.getElementsByTagName("body")[0].style.fontSize = document.body.clientWidth / 37.5 + 'px';
+    document.getElementsByTagName("html")[0].style.fontSize = document.body.clientWidth / 37.5 + 'px';
+</script>
+</html>
